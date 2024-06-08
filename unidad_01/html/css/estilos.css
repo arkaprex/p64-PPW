@@ -5,13 +5,36 @@ h1{
 }
 
 a {
- 
-
 }
+li.enlace {
+    display: inline-block;
+}
+
+.container-imagen {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+
+.imagen {
+    width: 400px;
+}
+
 .caja-enlace{
     display: block;
     width: 80px;
     border: 5px solid lightblue;
     padding:  5px;
     margin: 5px;
+}
+.container-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: black;
+}
+.container-footer  {
+    color: aliceblue;
+    font-size: 20px;
+    background-color: black;
 }
