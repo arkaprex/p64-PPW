@@ -39,6 +39,7 @@ h1 {
 .img {
     width: 400px;
 }
+
 .imga {
     width: 250px;
 }
@@ -68,7 +69,7 @@ h1 {
     text-shadow: 8px 8px 5px rgba(9, 188, 243, 0.5);
 }
 
-.letra{
+.letra {
     font-size: 30px;
     font-style: normal;
     margin-top: 20px;
