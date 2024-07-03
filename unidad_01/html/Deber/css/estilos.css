@@ -1,31 +1,12 @@
+/* estilos.css */
+body {
+    font-family: Arial, sans-serif;
+}
+
 h1 {
-    font-size: 40px;
-    font-style:  italic;
+    font-size: 50px;
+    font-style: italic;
     text-shadow: 8px 8px 5px rgba(9, 188, 243, 0.5);
-}
-
-
-li.enlace {
-    display: inline-block;
-}
-
-.container-imagen {
-    display: flex;
-    justify-content: center;
-    margin: 25px;
-}
-
-.img {
-    width: 190px;
-}
-
-.caja-enlace {
-    display: block;
-    width: 200px;
-    border: 1px solid lightgray;
-    padding: 5px;
-    margin: 5px;
-    box-shadow: 8px 8px 5px rgba(50, 138, 221, 0.5);
 }
 
 .container-menu {
@@ -35,8 +16,63 @@ li.enlace {
     background-color: rgb(45, 211, 142);
 }
 
+.caja-enlace {
+    display: block;
+    width: 300px;
+    border: 4px solid lightgray;
+    padding: 25px;
+    font-size: 30px;
+    margin: 4px;
+    text-shadow: 8px 8px 5px rgba(0, 0, 0, 0.5);
+    box-shadow: 8px 8px 5px rgba(50, 138, 221, 0.5);
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.container-imagen {
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+}
+
+.img {
+    width: 400px;
+}
+.imga {
+    width: 250px;
+}
+
 .container-footer {
-    color: aliceblue;
+    color: white;
     font-size: 20px;
-    background-color: rgb(14, 27, 85);
+    background-color: rgb(0, 22, 122);
+    padding: 10px;
+    text-align: center;
+}
+
+.letra {
+    font-style: italic;
+    font-size: 200px;
+    padding: 10px;
+    text-shadow: 8px 8px 5px rgba(9, 188, 243, 0.5);
+    text-align: center;
+}
+
+.bienvenido {
+    font-size: 200px;
+    font-style: italic;
+    margin-top: 20px;
+    color: rgb(26, 28, 37);
+    text-align: center;
+    text-shadow: 8px 8px 5px rgba(9, 188, 243, 0.5);
+}
+
+.letra{
+    font-size: 30px;
+    font-style: normal;
+    margin-top: 20px;
+    color: rgb(26, 28, 37);
+    text-align: left;
+    text-shadow: 8px 8px 5px rgba(9, 188, 243, 0.5);
 }
